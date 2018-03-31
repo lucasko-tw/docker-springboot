@@ -22,3 +22,4 @@ ENV JAVA_HOME /usr/lib/jvm/java-8-oracle
 
 WORKDIR /opt
 
+CMD ["mvn", "spring-boot:run"]
